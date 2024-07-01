@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(165, 203, 216);
+}
+h2{
+    font-size: 40px;
+    color: rgb(41, 110, 163);;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+}
+img{
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 2%;
+    top:0%;
+    border: 1px #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    width: 620px;
+    height: 680px;
+}
+.contacts{
+    background-color: white;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 20px;
+    top:0%;
+    border: 1px #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    width: 935px;
+    height: 650px;
+}
+.box{
+    z-index: 1;
+    background-color: rgb(41, 110, 163);
+    margin-top: 0px;
+   height:50px;
+   
+}
+.details{
+    margin-top: 60px;
+}
+input[type=text] {
+    width: 24%;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:10px;
+  }
+  input[type=email] {
+    width: 110%;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:10px;
+  }
+  input[type=submit] {
+    position: absolute;
+    top: 90%;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    border-color:rgb(118, 197, 243); ;
+    background-color: rgb(118, 197, 243);
+  }
+  textarea{
+    border-radius: 10px;
+  }
+ 
+ .name2{
+    position: absolute;
+    top:0%;
+    margin-top:420px
+ }
+ .name3{
+    position: absolute;
+    top:0%;
+    margin-top: 500px;
+ }
+ label:last-child{
+    font-size: 1000px;
+ }
+ .name img{
+    height: 25px;
+    width: 25px;
+    margin-top: 373px;
+    margin-left: 0;
+ }
+ input::placeholder{
+  position: absolute;
+  top: 30%;
+  margin-left: 30px;
+ }
+ .name2 img{
+  height: 25px;
+  width: 25px;
+  margin-top: 9px;
+  margin-left: 0;
+}
